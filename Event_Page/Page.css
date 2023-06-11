@@ -1,0 +1,46 @@
+body{
+    background-color:black;
+}
+.center{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-left: 40em;
+}
+.main{
+    position: relative;
+}
+.h{
+    position: absolute;
+    text-align: center;
+    margin-top: 4em;
+    margin-left: 9em;
+    color: white;
+    font-size: 4em;
+}
+.b{
+    position: absolute;
+    text-align: center;
+    margin-top: 22em;
+    margin-left: 42em;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+.Popup{
+    position: absolute;
+    margin-top: 20em;
+    color:grey;
+    width: 30em;
+    transform: scale();
+    background-color:rgb(173,216,230);
+    padding: 50px;
+    transform: scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-Popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
